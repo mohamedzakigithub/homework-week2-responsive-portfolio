@@ -45,7 +45,7 @@ Responsive design was implemented by using bootstrap built in grid system which 
 
 Images on the pages were made responsive as well by using bootstrap built in support for responsive images. this ensures that the images resize as required on smaller or bigger screens
 
-Another requirements was to transform the navbar into 2 rows on small screens. This was done using flex-box properties and media query to wrap the nav menu and the navbar brand into separate rows. the navbar brand is resized to be full width and margins are removed from the containers to make sure that the contents consume the whole screen width.
+Another requirement was to transform the navbar into 2 rows on small screens. This was done using flex-box properties and media query to wrap the nav menu and the navbar brand into separate rows. the navbar brand is resized to be full width and margins are removed from the containers to make sure that the contents consume the whole screen width.
 
 ## Use of media queries
 
