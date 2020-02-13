@@ -6,7 +6,7 @@ The aim of this project is to build a responsive portfolio website with three pa
 
 [Click here to the view the website on github-pages](https://mohamedzakigithub.github.io/homework-week2-responsive-portfolio/)
 
-## Table of Contents Responsive%20behavior%20on%20different devices
+## Table of Contents
 
 - [Responsive behavior on different devices](#Responsive%20behavior%20on%20different%20devices)
 - [Responsive design implantation](#Responsive%20design%20implantation)
