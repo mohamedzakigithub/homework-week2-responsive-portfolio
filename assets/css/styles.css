@@ -2,12 +2,18 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: lightgray;
 }
+
+[class*="col"] {
+  background-color: white;
+}
+
 .navbar-brand {
   color: white;
 }
 
-[class*="col"] {
+.navbar {
   background-color: white;
+  padding: 0px;
 }
 
 hr {
@@ -30,11 +36,6 @@ hr {
   text-align: center;
 }
 
-.navbar {
-  background-color: white;
-  padding: 0px;
-}
-
 @media only screen and (max-width: 768px) {
   .navbar {
     padding: 0px;
@@ -45,12 +46,14 @@ hr {
   .navbar-brand {
     width: 100%;
   }
-  .col {
-    padding: 0px;
-  }
+
   .nav {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  .col {
+    padding: 0px;
   }
 }
