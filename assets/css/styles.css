@@ -1,0 +1,58 @@
+body {
+  background-color: lightgray;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+a.navbar-brand {
+  color: white;
+}
+
+.col-lg-9 {
+  background-color: white;
+  padding: 15px;
+  border: 15px solid white;
+  border-radius: 5px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  color: #333;
+  background-color: #333;
+}
+
+.col-md-6 {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  width: calc((100%) - (30px));
+  bottom: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+  }
+  .container {
+    padding: 0px;
+  }
+  .navbar-brand {
+    width: 100%;
+  }
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
