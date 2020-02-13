@@ -41,15 +41,15 @@ The aim of this project is to build a responsive portfolio website with three pa
 
 ## Responsive design implantation
 
-The responsive design was implemented by using bootstrap built in grid system which is responsive by default and some custom css styling with media queries. Bootstrap grid system was implemented by applying classes and devide the page into rows and columns which resize on some breakpoints and transform from side by side to top down on smaller screens to ensure that the content is easily read on small devices.
+Responsive design was implemented by using bootstrap built in grid system which is responsive by default and some custom css styling with media queries. Bootstrap grid system was implemented by deviding the page into rows and columns by applying bootstrap classes and wrapping all the contents in a div with a container class. The container resizes on breakpoints and transform the columns from side by side to top down on smaller screens to ensure that the content is easily read on small devices.
 
 Images on the pages were made responsive as well by using bootstrap built in support for responsive images. this ensures that the images resize as required on smaller or bigger screens
 
-another requirements was to transform the navbar into 2 rows on small screens. this was done using flex-box properties and media query to wrap the nav menu and the navbar brand into separate rows. the nabar brand is resized t be full screen and margins are removed from the containers to make sure that the contents consume the whole screen width.
+Another requirements was to transform the navbar into 2 rows on small screens. This was done using flex-box properties and media query to wrap the nav menu and the navbar brand into separate rows. the navbar brand is resized to be full width and margins are removed from the containers to make sure that the contents consume the whole screen width.
 
 ## Use of media queries
 
-Media query was used to apply some css properties on extra small and small screens ( smaller than 768px ) which covers all mobile phones as they all fall under this category. This properties was removing the padding and the margin for the navbar, changing the flex direction of the navbar to column instead of rows and remove the padding from the navbar column to display the navbar brand as full width.
+Media query was used to apply some css properties on extra small and small screens ( smaller than 768px ) which covers all mobile phones as they all fall under this category. some applied properties include removing the padding and the margin for the navbar, changing the flex direction of the navbar to column instead of rows and remove the padding from the navbar column to display the navbar brand as full width.
 
 ```
 @media only screen and (max-width: 768px) {
