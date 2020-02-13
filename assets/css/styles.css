@@ -1,22 +1,18 @@
 body {
-  background-color: lightgray;
-  padding: 0px;
   font-family: "Roboto", sans-serif;
+  background-color: lightgray;
 }
-a.navbar-brand {
+.navbar-brand {
   color: white;
 }
 
-.col-lg-9 {
+[class*="col"] {
   background-color: white;
-  padding: 15px;
-  border: 15px solid white;
-  border-radius: 5px;
 }
 
 hr {
   border: none;
-  height: 1px;
+  height: 2px;
   color: #333;
   background-color: #333;
 }
@@ -36,6 +32,7 @@ hr {
 
 .navbar {
   background-color: white;
+  padding: 0px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -44,11 +41,12 @@ hr {
     margin: 0px;
     flex-direction: column;
   }
-  .container {
-    padding: 0px;
-  }
+
   .navbar-brand {
     width: 100%;
+  }
+  .col {
+    padding: 0px;
   }
   .nav {
     width: 100%;
