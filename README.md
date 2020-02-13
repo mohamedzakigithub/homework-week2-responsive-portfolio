@@ -47,6 +47,8 @@ Images on the pages were made responsive as well by using bootstrap built in sup
 
 Another requirement was to transform the navbar into two rows on small screens. This was done by using flex-box properties and media query to wrap the nav menu and the navbar brand into separate rows on small screen. The navbar brand is resized to be full width and paddings are removed from the container.
 
+## Use of media queries
+
 Media query was used to apply some css properties on extra small and small screens ( smaller than 768px ) which covers all mobile phones as they all fall under this category. some applied properties include removing the padding and the margin for the navbar, changing the flex direction of the navbar to column instead of rows and remove the padding from the navbar column to display the navbar brand as full width.
 
 ```
