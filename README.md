@@ -4,11 +4,11 @@
 
 The aim of this project is to build a responsive portfolio website with three pages (About, Projects and Contact pages). The website needs to be responsive and display differently according to the device screen size.
 
-[Click here to the view the website on github-pages](https://mohamedzakigithub.github.io/homework-week2-responsive-portfolio/)
+[Click here to the view the deployed website on github-pages](https://mohamedzakigithub.github.io/homework-week2-responsive-portfolio/)
 
 ## Table of Contents
 
-- [Responsive behavior on different devices](#Responsive-behavior-on%20different-devices)
+- [Responsive behavior on different devices](#Responsive-behavior-on-different-devices)
 - [Responsive design implantation](#Responsive-design-implantation)
 - [Use of media queries](#Use-of-media%20queries)
 - [Code highlights](#Code-highlights)
