@@ -12,6 +12,7 @@ The aim of this project is to build a responsive portfolio website with three pa
 - [Responsive design implantation](#Responsive%20design%20implantation)
 - [Use of media queries](#Use%20of%20media%20queries)
 - [Code highlights](#Code%20highlights)
+- [Side project](#Side%20project)
 
 ## Responsive behavior on different devices
 
@@ -144,3 +145,9 @@ hr {
   background-color: #333;
 }
 ```
+
+### Side project
+
+This is a side project responsive portfolio made with bootstrap with some added features like scroll spy and parallax scrolling with moving background on scroll.
+
+https://mohamedzakigithub.github.io/portfolio/
