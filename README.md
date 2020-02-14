@@ -10,7 +10,7 @@ The aim of this project is to build a responsive portfolio website with three pa
 
 - [Responsive behavior on different devices](#Responsive-behavior-on-different-devices)
 - [Responsive design implantation](#Responsive-design-implantation)
-- [Use of media queries](#Use-of-media%20queries)
+- [Use of media queries](#Use-of-media-queries)
 - [Code highlights](#Code-highlights)
 - [Side project](#Side-project)
 
